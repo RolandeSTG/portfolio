@@ -5,130 +5,170 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Rolande's Project Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+	<title>Rolande's Project Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Rolande's<br> Project Portfolio</h1>
-						<p>Software Developer skilled in Java, Spring Framework, Android development, SQL, C & a few others things</p>
-						<p><a href="https://ca.linkedin.com/in/rolande-st-gelais-99761522a/">@rolande</a> 
-							<br />
-						
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+	<!-- {RSTG}: Custom styles -->
+	<style>
+		/* To center the video frame over background image...*/
+		#demo-video {
+			z-index:1; 
+			position:absolute;
+			top:50%; 
+			left:50%; 
+			transform: translate(-50%, -50%);
+			padding: 2.0em; 
+		}	
+	</style>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Portfolio</a>
-					</header>
+</head>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<!-- For later 
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h1>Rolande's<br> Project Portfolio</h1>
+			<p>Software Developer skilled in Java, Spring Framework, Android development, SQL, C & a few others things
+			</p>
+			<p><a href="https://ca.linkedin.com/in/rolande-st-gelais-99761522a/">@rolande</a>
+				<br />
+
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Portfolio</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active"><a href="index.html">Projects</a></li>
+				<!-- For later 
 								<li><a href="aboutme.html">About Me</a></li>
 								<li><a href="contact.html">Contact</a></li>
 							-->
-						</ul>
-						<ul class="icons">
-							<li><a href="https://ca.linkedin.com/in/rolande-st-gelais-99761522a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/RolandeSTG" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://ca.linkedin.com/in/rolande-st-gelais-99761522a/"
+						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/RolandeSTG" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
 
-				<!-- Main -->
-					<div id="main">
+		<!-- Main -->
+		<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">Updated: October, 2023</span>
-									<h2><a href="https://github.com/RolandeSTG/tp-watchlist">Stock Watchlist<br />
-									REST API</a></h2>
-									<p>Simple Stock Watchlist RESTful web service using Spring Boot and Java. <br />
-									   Allows to manage a number of watchlists; also allows to get stock quotes for a given watchlist<br/>
-									   and to add/delete securities from it.<br/>
-									   Similar to those we would find on Google/Yahoo Finance web sites.
-									</p>
-								</header>
-								<a href="https://github.com/RolandeSTG/tp-watchlist" class="image main"><img src="images/watchlist-api.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/RolandeSTG/tp-watchlist" class="button large">View Project</a></li>
-								</ul>
-							</article>
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<span class="date">Added: November, 2023</span>
+					<h2><a href="https://github.com/RolandeSTG/my-watchlists-android">Stock Watchlist Client<br />
+							for Android</a></h2>
+					<p>Mobile application that makes use of the Stock Watchlist and Quote REST API services, described below.
+					</p>
+				</header>
+		
+				<div style="position:relative;">
+					<a href="https://github.com/RolandeSTG/my-watchlists-android" class="image main">
+						<img class src="images/mobile-app.jpg" alt="Mobile app picture" style="opacity: 0.7;"/>				
+					</a>
+					<video id="demo-video" controls width="360" height="460"  disablepictureinpicture 
+							poster="assets/videos/1_get_watchlists.png" title="Live Demo">
+						<source src="assets/videos/mywatchlists_demo.webm" type="video/webm" 
+						Your browser does not support the video tag. 
+					</video>
+				</div>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">Added: October, 2023</span>
-										<h2><a href="#">Quote Microservice <br />
-											REST API Project</a></h2>
-									</header>
-									<a href="https://github.com/RolandeSTG/tp-quote-service" class="image fit"><img src="images/quote-microservice.jpg" alt="" /></a>
-									<p>Provides the latest quote pricing for a given stock security. Quotes are being generated on-the-fly to simulate real-time markets.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/RolandeSTG/tp-quote-service" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Then...</span>
-										<h2><a href="#">Android Client App<br />
-										Project</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/mobile-app.jpg" alt="" /></a>
-									<p>Mobile app that will make use of the two previous services.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Under construction</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Then...</span>
-										<h2><a href="#">Simple Web Site<br />
-										Project</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/web-client.jpg" alt="" /></a>
-									<p>Will make use of the two previous services too.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">To be started soon</a></li>
-									</ul>
-								</article>
-			
-								<article>
-									<header>
-										<span class="date">Then...</span>
-										<h2><a href="#">we'll see :)<br /><br/>
-										</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/we-ll-see.jpg" alt="" /></a>
-									<p></p>
-									<!--ul class="actions special">
-										<li><a href="#" class="button">Under construction</a></li>
-									</ul-->
-								</article>
-			
-							</section>
+				<ul class="actions special">
+					<li><a href="https://github.com/RolandeSTG/my-watchlists-android" class="button large">View
+							Project</a></li>
+					<li><button id="btn-video" onclick="playPauseVideo()" class="button large">Watch Demo</button></li>
+				</ul>
+			</article>
 
-						<!-- Footer -->
-							<!--footer>
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<span class="date">Updated: November, 2023</span>
+						<h2><a href="https://github.com/RolandeSTG/tp-watchlist">Stock Watchlist<br />
+								REST API Project</a></h2>
+					</header>
+					<a href="https://github.com/RolandeSTG/tp-watchlist" class="image fit"><img
+							src="images/watchlist-api.jpg" alt="Watchlist Service picture" /></a>
+					<p>Simple Stock Watchlist RESTful web service using Spring Boot and Java.
+						Allows to manage a number of watchlists and to retrieve stock quotes for them.
+						Quotes are being provided by the Quote microservice.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/RolandeSTG/tp-watchlist" class="button">View Project</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<header>
+						<span class="date">Updated: November, 2023</span>
+						<h2><a href="#">Quote Microservice <br />
+								REST API Project</a></h2>
+					</header>
+					<a href="https://github.com/RolandeSTG/tp-quote-service" class="image fit"><img
+							src="images/quote-microservice.jpg" alt="Quote microservice picture" /></a>
+					<p>Provides the latest quote pricing for a given stock security. Quotes are being generated
+						on-the-fly to simulate real-time markets. Written in Java using Spring Boot, Spring Cloud,
+					    H2 Database and Hibernate</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/RolandeSTG/tp-quote-service" class="button">View Project</a>
+						</li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<span class="date">Then...</span>
+						<h2><a href="#">Simple Web Client<br />
+								Project</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/web-client.jpg" alt="" /></a>
+					<p>Will make use of the two previous services too.</p>
+					<ul class="actions special">
+						<li><a href="#" class="button">To be started soon</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<header>
+						<span class="date">Then...</span>
+						<h2><a href="#">we'll see :)<br /><br />
+						</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/we-ll-see.jpg" alt="" /></a>
+					<p></p>
+					<!--ul class="actions special">
+						<li><a href="#" class="button">Under construction</a></li>
+					</ul-->
+				</article>
+
+			</section>
+
+			<!-- Footer -->
+			<!--footer>
 								<div class="pagination">
 									<!--<a href="#" class="previous">Prev</a>-->
-									<!--a href="#" class="page active">1</a>
+			<!--a href="#" class="page active">1</a>
 									<a href="#" class="page">2</a>
 									<a href="#" class="page">3</a>
 									<span class="extra">&hellip;</span>
@@ -139,45 +179,52 @@
 								</div>
 							</footer-->
 
-					</div>
+		</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<!--section class="split contact"-->
-							<section class="alt">
-								<h3>Location</h3>
-								<p>St-Pie, Québec<br />
-								Canada, J0H 1W0</p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://ca.linkedin.com/in/rolande-st-gelais-99761522a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/RolandeSTG" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						<!--/section-->
-			
-					</footer>
+		<!-- Footer -->
+		<footer id="footer">
+			<!--section class="split contact"-->
+			<section class="alt">
+				<h3>Location</h3>
+				<p>St-Pie, Québec<br />
+					Canada, J0H 1W0</p>
+			</section>
+			<section>
+				<h3>Social</h3>
+				<ul class="icons alt">
+					<li><a href="https://ca.linkedin.com/in/rolande-st-gelais-99761522a/"
+							class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/RolandeSTG" class="icon brands fa-github"><span
+								class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<!--/section-->
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>Credits: Web site on GitHub Pages - AlexTheAnalyst</li>
-							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							<li>Images: <a href="https://unsplash.com">Unsplash.com</a></li>
-						</ul>
-					</div>
+		</footer>
 
-			</div>
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>Credits: Web site on GitHub Pages - AlexTheAnalyst</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				<li>Images: <a href="https://unsplash.com">Unsplash.com</a></li>
+			</ul>
+		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	</div>
 
-	</body>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<!-- {RSTG}: Custom scripts -->
+	<script src="assets/js/rstg_customs.js"></script>
+	
+</body>
+
 </html>
